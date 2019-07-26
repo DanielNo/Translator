@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		12A8FC4F1A08F2AD85A1F663 /* Pods_Translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84B80127C249A5293FA301C /* Pods_Translator.framework */; };
 		8A40CC3EEA87B3393F7C9513 /* Pods_TranslatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BA12A94D646D0278ECFC4A /* Pods_TranslatorUITests.framework */; };
+		9AC846E522EB98D400AFEC70 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC846E422EB98D400AFEC70 /* R.generated.swift */; };
+		9AC846E622EB990B00AFEC70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AC846E022EB922500AFEC70 /* Localizable.strings */; };
 		9AE7E12A22EB841900FE0728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7E12922EB841900FE0728 /* AppDelegate.swift */; };
 		9AE7E12C22EB841900FE0728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7E12B22EB841900FE0728 /* ViewController.swift */; };
 		9AE7E12F22EB841900FE0728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7E12D22EB841900FE0728 /* Main.storyboard */; };
 		9AE7E13122EB841B00FE0728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7E13022EB841B00FE0728 /* Assets.xcassets */; };
 		9AE7E13422EB841B00FE0728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7E13222EB841B00FE0728 /* LaunchScreen.storyboard */; };
 		9AE7E13F22EB841C00FE0728 /* TranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7E13E22EB841C00FE0728 /* TranslatorUITests.swift */; };
-		9AE7E14B22EB88C300FE0728 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7E14A22EB88C300FE0728 /* R.generated.swift */; };
 		9AE7E14D22EB8D3800FE0728 /* English.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7E14C22EB8D3800FE0728 /* English.stringsdict */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,9 @@
 		2923AB23A70DC0144C7E7FBB /* Pods-Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translator.release.xcconfig"; path = "Target Support Files/Pods-Translator/Pods-Translator.release.xcconfig"; sourceTree = "<group>"; };
 		7E12D31129FEBB844108188D /* Pods-TranslatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslatorUITests.release.xcconfig"; path = "Target Support Files/Pods-TranslatorUITests/Pods-TranslatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85BA12A94D646D0278ECFC4A /* Pods_TranslatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TranslatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC846DF22EB922500AFEC70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9AC846E122EB925900AFEC70 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9AC846E422EB98D400AFEC70 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		9AE7E12622EB841900FE0728 /* Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7E12922EB841900FE0728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE7E12B22EB841900FE0728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +47,6 @@
 		9AE7E13A22EB841C00FE0728 /* TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7E13E22EB841C00FE0728 /* TranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorUITests.swift; sourceTree = "<group>"; };
 		9AE7E14022EB841C00FE0728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AE7E14A22EB88C300FE0728 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		9AE7E14C22EB8D3800FE0728 /* English.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = English.stringsdict; sourceTree = "<group>"; };
 		9BC738D5FE3D4508BABD64D6 /* Pods-Translator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translator.debug.xcconfig"; path = "Target Support Files/Pods-Translator/Pods-Translator.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F2E3F4961C946C733387A8 /* Pods-TranslatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-TranslatorUITests/Pods-TranslatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,12 +118,13 @@
 			children = (
 				9AE7E12922EB841900FE0728 /* AppDelegate.swift */,
 				9AE7E12B22EB841900FE0728 /* ViewController.swift */,
+				9AC846E022EB922500AFEC70 /* Localizable.strings */,
 				9AE7E14C22EB8D3800FE0728 /* English.stringsdict */,
 				9AE7E12D22EB841900FE0728 /* Main.storyboard */,
 				9AE7E13022EB841B00FE0728 /* Assets.xcassets */,
 				9AE7E13222EB841B00FE0728 /* LaunchScreen.storyboard */,
-				9AE7E14A22EB88C300FE0728 /* R.generated.swift */,
 				9AE7E13522EB841B00FE0728 /* Info.plist */,
+				9AC846E422EB98D400AFEC70 /* R.generated.swift */,
 			);
 			path = Translator;
 			sourceTree = "<group>";
@@ -202,6 +206,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 9AE7E11D22EB841900FE0728;
 			productRefGroup = 9AE7E12722EB841900FE0728 /* Products */;
@@ -219,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC846E622EB990B00AFEC70 /* Localizable.strings in Resources */,
 				9AE7E13422EB841B00FE0728 /* LaunchScreen.storyboard in Resources */,
 				9AE7E14D22EB8D3800FE0728 /* English.stringsdict in Resources */,
 				9AE7E13122EB841B00FE0728 /* Assets.xcassets in Resources */,
@@ -330,7 +336,7 @@
 			files = (
 				9AE7E12C22EB841900FE0728 /* ViewController.swift in Sources */,
 				9AE7E12A22EB841900FE0728 /* AppDelegate.swift in Sources */,
-				9AE7E14B22EB88C300FE0728 /* R.generated.swift in Sources */,
+				9AC846E522EB98D400AFEC70 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +359,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9AC846E022EB922500AFEC70 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC846DF22EB922500AFEC70 /* en */,
+				9AC846E122EB925900AFEC70 /* es */,
+			);
+			name = Localizable.strings;
+			path = /Users/dno/Translator/Translator;
+			sourceTree = "<absolute>";
+		};
 		9AE7E12D22EB841900FE0728 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -376,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

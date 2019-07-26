@@ -15,13 +15,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.testFunction()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     
     func testFunction(){
         let image = R.image.walgreens()
-        
+        self.topLabel.text = R.string.localizable.hello()
+        self.bigBtn.setTitle(R.string.localizable.pressMe(), for: .normal)
     }
 
 
